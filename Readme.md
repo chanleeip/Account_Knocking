@@ -32,6 +32,7 @@ Automating the account-checking process with Selenium offers several advantages:
 1. Install [Poetry](https://python-poetry.org/docs/).
 2. Clone the repository: `git clone https://github.com/chanleeip/Account_knocking.git`
 3. Run `poetry install` to install project dependencies.
+4. Use FireFox Browser for this script to work.
 
 ## Usage
 
