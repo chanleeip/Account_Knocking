@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "account-knocking-of-websites"
+version = "0.1"
+description = "For winter internship @ SECE"
+authors = ["nithinn manickam <nithinnmanickam@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.31.0"
+selenium = "^4.16.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
