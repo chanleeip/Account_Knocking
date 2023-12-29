@@ -23,12 +23,12 @@ def check_ebay_account(email):
         not_found_log_text = not_found_log.text
         
         if not_found_log_text == 'We couldn\'t find this eBay account.':
-            return ("Account not  Exists")
+            return (False)
         else:
-            return("Account exists")
+            return(True)
     except NoSuchElementException:
-        return("Account exist.")
+        return(True)
 
 
 
-    # driver.close()
+    driver.close()
