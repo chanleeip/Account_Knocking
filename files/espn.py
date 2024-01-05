@@ -35,7 +35,7 @@ def check_account_espn(email):
         if not_found_log_text == 'Good news, you already have an account':
             return(True)
         else:
-            return(True)
+            return(False)
     except NoSuchElementException:
         return(False)
 
